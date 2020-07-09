@@ -9,6 +9,12 @@ Install the migrator tool either as a global tool:
 dotnet tool install -g Badgie.Migrator
 ```
 
+Update the migrator tool:
+
+```
+dotnet tool update --ignore-failed-sources -g Badgie.Migrator
+```
+
 ...or as a CliToolReference in your project:
 
 ```
